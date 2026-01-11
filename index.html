@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Tasks</h1>
+        <p class="subtitle">focus on what matters</p> 
+      </header>
+
+      <!--input section -->
+      <div class="input-section">
+        <div class="area">
+          <input type="text" id="add-task" placeholder="Add a new task" />
+
+          <div class="time-input-group">
+            <input type="number" class="time-value" min="0" placeholder="00" />
+            <select class="time-unit">
+              <option>Hrs</option>
+              <option>Days</option>
+              <option>Weeks</option>
+            </select>
+          </div>
+        </div>
+        <button class="create">Create task</button>
+      </div>
+
+      <div class="active">
+        <h3>Active Tasks</h3>
+        <span id="running-count">0 Running</span>
+      </div>
+
+      <div class="task-list" id="task-list">
+        <!-- task list will added here dynamaclly -->
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js" charset="UTF-8"></script>
+  </body>
+</html>
