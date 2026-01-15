@@ -13,6 +13,8 @@ Built using HTML, CSS, and JavaScript, with support for task persistence using b
 ✔ Adaptive task cards (auto line-wrapping)
 ✔ Stores tasks in memory
 ✔ Smooth UX for input and actions
+✔ LocalStorege is available 
+✔ RealTime Timer
 
 🛠 Tech Stack
 Layer	Technology
