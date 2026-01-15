@@ -148,11 +148,14 @@ body {
   display: flex;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  word-break: break-all;
+
   white-space: normal;
   flex-direction: column;
   gap: 12px;
+  flex: 1 1 auto;
   max-width: 100%;
-  flex: 1 1 45%
+  width: 100%;
 }
 
 .task-card h4 {
@@ -175,7 +178,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .task-list {
     grid-template-columns: 1fr;
   }
